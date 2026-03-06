@@ -53,7 +53,7 @@ main {
   top: max(0.6rem, env(safe-area-inset-top));
   margin-top: 0.85rem;
   z-index: 40;
-  padding: 0.55rem 0.95rem 0.55rem 0.7rem;
+  padding: 0.55rem 0.7rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -96,10 +96,6 @@ main {
   background-size: 180% 180%;
   box-shadow: 0 12px 30px rgba(94, 109, 241, 0.34);
   animation: shift 8s ease-in-out infinite;
-}
-
-.topbar-book {
-  margin-right: 0.2rem;
 }
 
 .btn-secondary {
@@ -158,6 +154,25 @@ h1 {
   display: flex;
   gap: 0.7rem;
   flex-wrap: wrap;
+}
+
+.hero-proof {
+  margin-top: 1.35rem;
+  display: flex;
+  gap: 0.7rem;
+  flex-wrap: wrap;
+}
+
+.hero-proof span {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.45rem 0.68rem;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  color: #bed4e6;
+  font-size: 0.78rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
 }
 
 .metrics {
@@ -266,7 +281,7 @@ h1 {
   }
 
   .topbar {
-    padding: 0.5rem 0.78rem 0.5rem 0.5rem;
+    padding: 0.5rem;
   }
 
   .logo {
@@ -278,27 +293,12 @@ h1 {
     padding: 0.58rem 0.78rem;
   }
 
-  .topbar-book {
-    margin-right: 0.1rem;
-  }
-
   .hero {
     margin-top: 0.1rem;
   }
 
   .hero-actions .btn {
     width: 100%;
-  }
-}
-
-@media (max-width: 390px) {
-  .btn-primary {
-    font-size: 0.7rem;
-    padding: 0.53rem 0.7rem;
-  }
-
-  h1 {
-    font-size: clamp(1.9rem, 11vw, 2.25rem);
   }
 }
 
