@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-label="Fulton River Partners favicon">
+  <defs>
+    <linearGradient id="bars" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4b8fff" />
+      <stop offset="55%" stop-color="#805cff" />
+      <stop offset="100%" stop-color="#da58d1" />
+    </linearGradient>
+  </defs>
+  <rect x="42" y="70" width="172" height="34" rx="17" fill="url(#bars)" />
+  <rect x="42" y="152" width="172" height="34" rx="17" fill="url(#bars)" />
+</svg>
